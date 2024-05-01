@@ -1,0 +1,81 @@
+'''senha_cadastrada = '1234'
+for i in range(3):
+    senha = input("Qual a senha? ")
+    if senha == senha_cadastrada:
+        break
+
+meulen=0
+for char in 'danilo':
+    meulen+= 1
+print(meulen)
+'''
+#Exercicio 1
+'''lista = [1,4,5,8,19,3,2,10,9,11]
+pares = 0
+for nm in lista:
+    if nm%2==0:
+        pares+=1
+print(f"Há {pares} números pares e {len(lista) - pares} ímpares")
+
+# Exercicio 2
+
+lista = [2,2,2,2,2,2,2,2,2,2]
+soma = 0
+for nm in lista:
+    soma+=nm
+print(f"A soma é {soma} é a média é {soma/len(lista)}")
+'''
+
+#Exercicio 3
+
+'''profs = ['Lucas D','Ana', 'Cordeiro', 'Jones',
+         'Lucas', 'Danilo', 'Caio']
+for i in range(len(profs)):
+    if profs[i] == "Danilo":
+        print(i)
+        print('O Danilindo é um querido')
+'''
+
+#Exercício 4
+'''profs = ['Lucas D','Ana', 'Cordeiro', 'Jones',
+         'Lucas', 'Danilo', 'Caio']
+mats = ['front','storytelling','online','cálculo','edge',
+        'python','webdev']
+for i in range(len(profs)):
+    print(f'{profs[i]} dá aula de {mats[i]}')
+
+lista = []
+maior_que_cem = 0
+while len(lista) < 10:
+    nm = int(input('Diga um número: '))
+    lista.append(nm)
+    print(lista)
+for nm in lista:
+    if nm > 100:
+        maior_que_cem += 1
+print(maior_que_cem)
+
+
+lista =  [1,3,10,4]
+maior = lista[0]
+pos_maior = 0
+for i in range(len(lista)):
+    if lista[i] > maior:
+        maior = lista[i]
+        pos_maior = i
+print(maior)
+print(pos_maior)
+'''
+
+maquiagens = ['Pó Compacto Melu', 'Blush Shein','Rímel TooFaced', 'Paleta iluminadora Dior',
+              'Gloss GreenChilli Francine']
+preco = [16,18,280,750,50]
+local_maior = 0
+maior = preco[local_maior]
+for i in range(1,len(maquiagens)):
+    print(f"Vou testar se {preco[i]}>{maior}")
+    if preco[i]>maior:
+        local_maior = i
+        maior = preco[i]
+print(f"A make mais cara é a {maquiagens[local_maior]} e custa {preco[local_maior]}")
+
