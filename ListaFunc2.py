@@ -1,4 +1,4 @@
-'''#Exercício 1
+#Exercício 1
 num1= int(input("Escreva um numero: "))
 num2= int(input("Escreva outro numero: "))
 if num1>num2:
@@ -125,7 +125,7 @@ elif ang3 > 90 or ang2 > 90 or ang3 > 90:
      print("Triângulo obtuso")
 else:
     print("Agudo")
-'''
+
 #Exercício 12
 vel = int(input("Qual foi a velocidade registrada?: "))
 multa_
