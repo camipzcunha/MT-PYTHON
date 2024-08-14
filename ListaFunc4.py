@@ -1,4 +1,4 @@
-'''
+
 velocidade = int(input('Qual foi a velocidade registrada?'))
 taxa_20 = 120 * 0.20
 taxa_30 = 150 * 0.30
@@ -117,4 +117,4 @@ while i < 1000000000:
     ano += 1
 
 print(ano)
-'''
+
