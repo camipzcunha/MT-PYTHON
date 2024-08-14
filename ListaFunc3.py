@@ -1,4 +1,4 @@
-'''i = 0
+i = 0
 soma = 0
 while i < 100:
     i += 1
@@ -135,7 +135,7 @@ while i > 0:
     num = num * i
     i -= 1
 print(num)
-'''
+
 
 #Primos
 num=int(input('Diga um número: '))
