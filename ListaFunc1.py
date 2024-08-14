@@ -1,4 +1,4 @@
-'''nome= input("Diga seu nome: ")
+nome= input("Diga seu nome: ")
 primeiro_numero = int(input(f"{nome}, diga o primeiro número: "))
 segundo_numero = int(input(f"{nome}, diga um segundo número: "))
 soma = primeiro_numero + segundo_numero
@@ -62,9 +62,9 @@ else:
     print("É consoante")
 
     ///////////////////////////////////////////////
-'''
 
-'''salario = float(input("Qual o seu salario atual em R$? "))
+
+salario = float(input("Qual o seu salario atual em R$? "))
 
 if salario < 1093.98:
     print(f"Sua aliquota é isenta. Seu salário é de {salario}")
@@ -85,4 +85,3 @@ desconto = salario * desc
 sal = salario - desconto
 print(f"Seu salário é de {sal}")
 
-'''
