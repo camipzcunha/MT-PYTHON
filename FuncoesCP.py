@@ -1,14 +1,14 @@
 #Critério 1 
-'''def verificaNum(msg):
+def verificaNum(msg):
     nmr = input(msg)
     while not nmr.isnumeric():
         nmr = input(msg)
     return int(nmr)
 
-ts = verificaNum("Digite o tamanho do vetor: ")'''
+ts = verificaNum("Digite o tamanho do vetor: ")
 
 #Critério 2
-'''lista_elementos = ['tinto', 'branco', 'rosé', 'espumante', 'licoroso', 'fortificado']
+lista_elementos = ['tinto', 'branco', 'rosé', 'espumante', 'licoroso', 'fortificado']
 lista_precos = [10, 20, 30, 40, 50, 60]
 
 #Critério 3
@@ -22,10 +22,10 @@ def opt(elemento,lista):
     return vinho
 
 Vinho = opt("Digite o tipo de vinho: ",lista_elementos)
-'''
+
 
 #Critério 4
-'''numeros = [1,2,3,4000,5,60,97,8,900,10]
+numeros = [1,2,3,4000,5,60,97,8,900,10]
 def maiorIndice(lista):
     indiceMaior = 0
     maior = lista[indiceMaior]
@@ -36,7 +36,7 @@ def maiorIndice(lista):
             return maior, indiceMaior
         
 nmr = maiorIndice(numeros)
-print(nmr)'''
+print(nmr)
 
 #Critério 5
 def Media(numeros):
